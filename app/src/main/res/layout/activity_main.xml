@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kerosoft.mands.test20171201.MainActivity">
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suica/Pasmoを\nスキャンしてください。"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <TextView
+        android:id="@+id/text02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="IDm"
+        android:textSize="24dp"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text01"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <TextView
+        android:id="@+id/text03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="IDm2"
+        android:textSize="24dp"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text02"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <TextView
+        android:id="@+id/text04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="IDm3"
+        android:textSize="24dp"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text03"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <TextView
+        android:id="@+id/text05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="IDm4"
+        android:textSize="24dp"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text04"
+        app:layout_constraintVertical_bias="0.737" />
+
+</android.support.constraint.ConstraintLayout>
